@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Arya Voice Assistant</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_chat">चैट</string>
+    <string name="title_live">लाइव</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="gemini_greeting">नमस्ते! मैं आपकी क्या सहायता कर सकता हूँ?</string>
+    <string name="listening_hint">सुन रहा हूँ... बोलिए</string>
+    <string name="processing_hint">सोच रहा हूँ...</string>
+    <string name="tap_to_speak">बोलने के लिए टैप करें</string>
+    <string name="voice_lock_title">वॉइस लॉक एवं इनरोलमेंट</string>
+    <string name="voice_lock_desc">बायोमेट्रिक वॉइस ऑथेंटिकेशन और वेक फ़्रेज़ सेटिंग्स</string>
+    <string name="train_voice">वॉइस इनरोल / री-ट्रेन करें</string>
+    <string name="voice_enrolled">आवाज़ इनरोल है</string>
+    <string name="voice_not_enrolled">आवाज़ इनरोल नहीं है</string>
+</resources>

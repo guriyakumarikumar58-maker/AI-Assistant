@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VoiceLock Database Schema",
+  "entities": {
+    "UserProfile": {
+      "collection": "users",
+      "path": "users/{userId}",
+      "description": "User profile with voice lock and biometric settings",
+      "properties": {
+        "ownerName": { "type": "string" },
+        "secretWakePhrase": { "type": "string" },
+        "ownerPitchHz": { "type": "number" },
+        "updatedAt": { "type": "number" }
+      },
+      "required": ["ownerName"]
+    },
+    "VoiceLog": {
+      "collection": "voice_logs",
+      "path": "users/{userId}/voice_logs/{logId}",
+      "description": "Log of recognized voice commands and actions",
+      "properties": {
+        "spokenText": { "type": "string" },
+        "aiResponse": { "type": "string" },
+        "actionType": { "type": "string" },
+        "speakerStatus": { "type": "string" },
+        "timestamp": { "type": "number" },
+        "isSecurityAlert": { "type": "boolean" }
+      },
+      "required": ["spokenText", "timestamp"]
+    }
+  }
+}

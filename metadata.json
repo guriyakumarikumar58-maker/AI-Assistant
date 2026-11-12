@@ -1,0 +1,10 @@
+{
+  "name": "Arya Voice Assistant",
+  "description": "An advanced AI voice assistant with Google Gemini intelligence, voice biometrics, and minimal assistant UI.",
+  "requestFramePermissions": [
+    "android.permission.RECORD_AUDIO"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
